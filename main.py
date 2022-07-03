@@ -6,6 +6,7 @@ if __name__ == '__main__':
     c=Car("Maruti","Zen",e)
     c.show()
     c.accelerate(50)
+    c.engine.injectFuel(15)
     print("This a Composition Project")
     print("Torque is = "+str(c.engine.generateTorque(50))+" Nw-Mtrs")
 

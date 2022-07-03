@@ -6,3 +6,6 @@ class Engine:
 
     def generateTorque(self,fuel):
         return self.nC*fuel/10;
+
+    def injectFuel(self,fuelQtty):
+        print("Injecting Fuel at "+str(fuelQtty)+" ml/sec")
